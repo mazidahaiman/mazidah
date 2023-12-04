@@ -1,0 +1,90 @@
+body{
+    background-color: antiquewhite;
+    background: linear-gradient(to right, skyblue, lightpink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color:black;
+    text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+   border-top-style: dashed;
+   border-bottom-style: dashed;
+   border-left-style: dotted;
+   border-left-width: 10px;
+   border-left-color: lightseagreen;
+}
+p{
+    background-color: blanchedalmond;
+    color: black;
+
+    font-family: "consolas", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration:black dotted underline;
+    font-size: 18px;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+}
+p1{
+    color:red;
+    font-family: cursive;
+    font-weight: bold;
+}
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.address {
+    font-size: 18px;
+    text-align: center;
+}
+.level {
+    font-size: 16px;
+    text-align: center;
+}
+.Tel{
+    font-size: 16px;
+    text-align: center;
+}
+.email{
+    font-size: 16px;
+    text-align: center;
+}
+.Website{
+    font-size: 16px;
+    text-align: center;
+}
+.facebook{
+    font-size: 16px;
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
